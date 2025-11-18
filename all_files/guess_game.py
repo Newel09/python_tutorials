@@ -1,5 +1,4 @@
 import random
-from re import match
 
 """
 Import the random module: At the beginning of your code, add the line import random. 
@@ -18,9 +17,10 @@ Offer to play again: Ask the user if they want to play again using an if stateme
 secret_number = random.randint(1,15) # Random numbers in between from 1 to 15
 
 while True:
-   guess = int(input("I am thinking of a number can you guess it: "))
+ guess = int(input("I am thinking of a number can you guess it: "))
 
-   match guess:
+
+ match guess:
     case _ if guess == secret_number: # if guess is exactly equal to secret
      print("Congratulations, you guessed it!")
     
