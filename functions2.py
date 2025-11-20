@@ -1,14 +1,4 @@
-"""def greet(name: str) -> None:
-    Print a greeting.
-
-    Args:
-        name: Person to greet.
-    
-    print(f"Hello, {name}!")
-    
-    """
-
-
+"""
 def calculate_area(length: float, width: float) -> float:
    
    return length * width
@@ -16,8 +6,13 @@ def calculate_area(length: float, width: float) -> float:
 area = calculate_area(5.0, 3.0)
 
 print(f"The area is {area}")
+"""
 
+def x(y: int, z: int) -> int:
+    return ((y/z) / 10 * z)
 
-   
+modulos = x(10,3)
 
-
+temp = x(20, 2)
+print(modulos)
+print(temp)
