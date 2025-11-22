@@ -1,5 +1,6 @@
-def total_calc(bill_amount, tip_perc = 10):
-    return round(bill_amount * (1 + (0.01 * tip_perc)),2)
+# import from bill_function.py
+
+from library_system.bill_function import total_calc
 
 bill_amount = float(input("Enter bill amount: "))
 total = total_calc(bill_amount)

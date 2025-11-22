@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run as module: all_files.use_calculator",
+      "type": "python",
+      "request": "launch",
+      "module": "all_files.use_calculator",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run file with project root cwd",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/all_files/use_calculator.py",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
